@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(20, 159, 20);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div {
+    height: 90px;
+    width: 90px;
+    background-color: blue;
+    margin: 5px;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.reset {
+    height: 50px;
+    width: 130px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.status{
+    font-size: 30px;
+}
